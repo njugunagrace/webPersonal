@@ -1,0 +1,395 @@
+*{
+   margin: 0px;
+
+
+}
+* body{
+   /* background-color: rgb(239, 247, 255); */
+ font-family:'Times New Roman', Times, serif;
+
+}
+
+
+.container{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 200px;
+}
+.video{
+   position: absolute;
+   top: -50%;
+   left: -50%;
+   min-width: 150%;
+   min-height: 120%;
+   z-index: -1;
+}
+.location{
+   border-radius: 33px;
+   border: none;
+}
+
+ .nav,ul{
+   list-style: none;
+   display: flex;
+   gap: 50px;
+   cursor: pointer;
+   color: aliceblue;
+}
+#nuro{
+    color:  rgb(225, 219, 220);
+    font-size: 25px;
+}
+#simple{
+   color: bisque;
+}
+
+ .login{
+    height: 35px;
+    width: 100px;
+    background-color:rgb(35, 173, 227) ;
+    border: solid rgb(30, 176, 202) 1px;
+    color: rgb(227, 234, 235);
+    cursor: pointer;
+
+
+ }
+ .signup{
+   height: 35px;
+   width: 100px;
+   background-color: rgb(60, 152, 189);
+   border: none;
+   color: aliceblue;
+   cursor: pointer;
+ }
+
+ .simple{
+     text-align: center;
+     padding-top: 80px;
+     width: 50%;
+     padding-left: 280px;
+ }
+ #text{
+    font-size: 60px;
+    color: aliceblue;
+ }
+ #hotel{
+    color:  rgb(54, 158, 177);
+ }
+ .location{
+    height: 60px;
+    width: 600px;
+ }
+ .burj{
+    background-image: url(/images/ship.webp);
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px #b0ad9e;
+
+ }
+ .westin{
+    background-image: url(/images/huge.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 70%;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px #b0ad9e;
+
+ }
+ .palace{
+    background-image: url(/images/palace-hotel.webp);
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px #b0ad9e;
+
+ }
+ .popular{
+    display: flex;
+    padding-top: 50px;
+    gap: 30px;
+    position: relative;
+
+ }
+ .most{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+
+ }
+ #txt{
+    position: absolute;
+    top: 80%;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(246, 249, 252);
+ }
+ .see{
+    width: 130px;
+    height: 44px;
+    border: solid 1px  rgb(54, 158, 177);
+    color: rgb(54, 158, 177);
+    margin-left: 550px;
+    margin-top: 50px;
+    border-radius: 8%;
+    cursor: pointer;
+ }
+ .see,:hover{
+   transition: 8s;
+ }
+.facilities{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 100px;
+    gap: 30px;
+    margin-bottom: 50px;  
+}
+ .facilities,div{
+  /* border: solid; */
+  
+  }
+ #wifi{
+    width: 50%;
+    height: 40%; 
+
+ }
+ .divswim{
+   background-color: aliceblue;
+   filter: drop-shadow(8px 8px 4px  #aba687);
+
+ }
+ .gim{
+   background-color: aliceblue;
+   filter: drop-shadow(8px 8px 4px  #96927f);
+
+ }
+ .break{
+position: relative; 
+background-color:aliceblue;
+filter: drop-shadow(8px 8px 4px  #b8b291);
+
+}
+#break{
+    width: 40%;
+    height: 50%; 
+  
+} 
+.txtbreak{
+   position: absolute;
+   top: 105px;
+}
+#lunch{
+     width: 60%;
+     height: 40%;  
+} 
+#electricity{
+   width: 40%;
+   height: 40%; 
+}
+.pool{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   margin-left: 100px;
+   gap: 30px;
+   margin-bottom: 80px;
+}
+
+#gim{
+   width: 50%;
+   height: 60%;
+}
+#more{
+   width: 40%;
+}
+.break{
+ 
+}
+.rooms{
+   width: 40%;
+   margin:auto ;
+}
+#room{
+   text-align: center;
+}
+.bigcont{
+   margin-left: 100px;
+
+}
+.luxury{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-bottom: 80px;
+   margin-right: 220px;
+   gap: 120px;
+}
+.bed{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 30px;
+}
+.booknow{
+   background-color: aliceblue;
+}
+.bookno{
+   width: 78%;
+   background-color: aliceblue;
+
+}
+#star{
+   color: dodgerblue;
+}
+#menu{
+   margin-left: 100px;
+  
+}
+.food{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 70px;
+   grid-column-gap: 30px;
+
+}
+#spa{
+   width:100%;
+   height: 80%;
+}
+#pasta{
+   width: 100%;
+   height: 80%;
+}
+#biri{
+   width: 100%;
+   height: 80%;
+}
+.time{
+   width: 80px;
+    height: 38px;
+    border: solid 1px rgb(141, 197, 235);
+    color:  rgb(141, 197, 235);
+
+}
+.clients{
+   margin-top: 130px;
+   margin-left: 80px;
+   margin-right: 80px;
+}
+#person1{
+   border-image-source: url(border.png);
+   width: 20%;
+   border-radius: 50px;
+}
+.lorem{
+   grid-template-columns: repeat(3,1fr);
+   display: grid;
+   gap: 30px;
+   
+}
+#person2{
+   border-image-source: url(border.png);
+   width: 28%;
+   border-radius: 40px;
+}
+#person3{
+   border-image-source: url(border.png);
+   width: 25%;
+   border-radius: 40px;
+}
+.say{
+   text-align: center;
+   margin-bottom: 50px;
+}
+.job{
+   color:  dodgerblue;
+}
+.why{
+   text-align: center;
+}
+#unicodes{
+   font-size: 250%;
+   
+}
+.choose{
+   display: grid;
+   grid-template-columns:repeat(2,1fr) ;
+}
+#but{
+   width: 180px;
+   height: 50px;
+  background-color: dodgerblue ;
+  border: none;
+}
+.hotelsdiv{
+   display: grid;
+   grid-template-columns:repeat(2,1fr) ;
+}
+#imgHotel1{
+   
+}
+#imgHotel{
+   width: 50%;
+   height: 60%;
+}
+#imgHotel2{
+   width: 50%;
+   height: 80%;
+}
+#pers{
+   width: 80%;
+   height: 70%;
+}
+
+.luxurious{
+   /* float:right; */
+}
+.subscribe{
+   padding-top: 50px;
+   padding-bottom: 50px;
+   text-align: center;
+   background-color: rgb(21, 106, 176);
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+}
+#email{
+   width: 250px;
+   height: 40px;
+   border-radius: 25px;
+   border: none;
+
+}
+#sub{
+   width: 100px;
+   height: 40px;
+  border-radius: 25px;
+  border: none;
+  position:relative;
+
+ /* left: 1px; */
+}
+.footer{
+   display: grid;
+   gap: 100px;
+   grid-template-columns: repeat(3,1fr);
+   margin-top: 60px;
+  box-shadow: 8px 8px 8px #b0ad9e;
+   position: relative;
+   background-color: rgb(223, 220, 216);
+}
+.shei{
+   padding-right: 500px;
+}
+
+@media screen,(max-width:700px)and(min-width:700px) {
+   body{
+      
+   }
+
+
+
+}
+   
+
